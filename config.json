@@ -1,0 +1,6 @@
+{
+    "chunk_file_path": "./resources/rag-mini-wikipedia_all_chunks.pkl",
+    "faiss_index_file_path": "./resources/rag-mini-wikipedia_chunks_faiss_index.index",
+    "sentence_encoder_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "response_generator_model": "meta-llama/Llama-2-7b-chat-hf"
+}
