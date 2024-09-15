@@ -94,10 +94,10 @@ with gr.Blocks(theme="gradio/monochrome", title="RAG Project Application") as ra
                 "chosen the `meta-llama/Llama-2-7b-chat-hf` model from Hugging Face for this project. It's part of "
                 "Meta's Llama 2 series and is fine-tuned with 7 billion parameters for dialogue applications. "
                 "Trained on a vast, publicly sourced dataset, this model excels in various domains. 🦙")
-    gr.Markdown("This application was created using Gradio 4.38.1, with model serving done via Hugging Face's "
-                "Hub. The code was developed with the assistance of Claude 3.5 Sonnet. For more details on the "
-                "chunking process, prompt development, conclusions, and future steps, check out the research "
-                "notebook in the 'Research' folder of this project repository. 📁")
+    gr.Markdown("This application was created using Gradio 4.38.1. The code was developed with the assistance "
+                "of Claude 3.5 Sonnet. For more details on the chunking process, prompt development, conclusions, "
+                "and future steps, check out the research notebook in the 'Research' folder of this project "
+                "repository. 📁")
     with gr.Row():
         with gr.Column(scale=7):
             question = gr.Textbox(label="Random Question", value=get_random_question(), interactive=False)

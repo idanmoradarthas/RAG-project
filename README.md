@@ -19,8 +19,7 @@ in their training data.
 * Uses `rag-mini-wikipedia` dataset for factual information retrieval.
 * Employs `all-MiniLM-L6-v2` for sentence encoding and `FAISS` for efficient similarity search.
 * Leverages `meta-llama/Llama-2-7b-chat-hf` model for response generation.
-* Built with Gradio 4.38.1 (a user interface library for machine learning) and leverages Hugging Face Hub for 
-model serving.
+* Built with Gradio 4.38.1 (a user interface library for machine learning).
 
 ## Benefits:
 * More informative responses by incorporating external knowledge.
